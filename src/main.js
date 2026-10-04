@@ -1,6 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import './assets/styles/variables.css'
-import './assets/styles/animations.css'
-
-createApp(App).mount('#app')
+import { createApp } from "vue";
+import "@fontsource/italiana/400.css";
+import "@fontsource/allura/400.css";
+import "@fontsource/poiret-one/400.css";
+import "lenis/dist/lenis.css";
+import "@fontsource/manrope/400.css";
+import "@fontsource/manrope/500.css";
+import "./style.css";
+import App from "./App.vue";
+createApp(App).mount("#app");
